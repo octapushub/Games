@@ -36,7 +36,7 @@ function ESP()
                 for _, child in ipairs(blue) do
                     local success, result = pcall(function()
                         if child:FindFirstChild("ESP") == nil and child.Parent.Parent == game:GetService("Workspace"):FindFirstChild("Players") then
-                            CreateBillboard(child)
+                            CreateESPBillboard(child)
                         end
                     end)
                 end
@@ -45,7 +45,7 @@ function ESP()
                 for _, child in ipairs(orange) do
                     local success, result = pcall(function()
                         if child:FindFirstChild("ESP") == nil and child.Parent.Parent == game:GetService("Workspace"):FindFirstChild("Players") then
-                            CreateBillboard(child)
+                            CreateESPBillboard(child)
                         end
                     end)
                 end
@@ -61,7 +61,7 @@ function ESP()
                 for _, child in ipairs(blue) do
                     local success, result = pcall(function()
                         if child:FindFirstChild("ESP") == nil and child.Parent.Parent == game:GetService("Workspace"):FindFirstChild("Players") then
-                            CreateBillboard(child)
+                            CreateESPBillboard(child)
                         end
                     end)
                 end
@@ -70,7 +70,7 @@ function ESP()
                 for _, child in ipairs(orange) do
                     local success, result = pcall(function()
                         if child:FindFirstChild("ESP") == nil and child.Parent.Parent == game:GetService("Workspace"):FindFirstChild("Players") then
-                            CreateBillboard(child)
+                            CreateESPBillboard(child)
                         end
                     end)
                 end
